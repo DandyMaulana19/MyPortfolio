@@ -12,7 +12,7 @@ const Project = () => {
     <>
       <div id="top"></div>
       <Navbar />
-      <div className="w-100">
+      <div className="w-100 overflow-x-hidden">
         <div
           className="row align-items-center d-flex postion-relative justify-content-between"
           id="header"

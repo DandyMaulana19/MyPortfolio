@@ -7,7 +7,7 @@ const Coder = () => {
     <>
       <div id="top"></div>
       <Navbar />
-      <div className="w-100 mb-5">
+      <div className="w-100 mb-5 overflow-x-hidden">
         <div className="container-lg px-lg-4">
           <div className="row justify-content-center" id="detail">
             <div className="col-12 postion-relative justify-content-between">

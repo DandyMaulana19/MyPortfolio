@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div id="top"></div>
       <Navbar toggleDarkMode={toggleDarkMode} />
-      <div className={`w-100 ${darkMode ? "dark-mode" : ""}`}>
+      <div className={`w-100 overflow-x-hidden ${darkMode ? "dark-mode" : ""}`}>
         <div
           className="row align-items-center mb-3 d-flex postion-relative justify-content-between"
           id="header"
