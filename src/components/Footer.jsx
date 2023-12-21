@@ -5,7 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 const Footer = () => {
   return (
     <>
-      <div className="px-lg-5" style={{ width: "100vw" }}>
+      <div className="px-lg-5 overflow-x-hidden" style={{ width: "100vw" }}>
         <div className="row mt-5 px-4 justify-content-between">
           <div className="col-7 mb-4 d-flex p-0">
             <div className="col-md-2 col-6">

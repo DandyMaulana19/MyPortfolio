@@ -5,7 +5,7 @@ const Navbar = ({ toggleDarkMode }) => {
   return (
     <>
       <div
-        className="nav justify-content-center d-flex position-fixed"
+        className="nav justify-content-center d-flex position-fixed overflow-x-hidden"
         id="navbar"
         style={{ fontSize: 16 }}
       >

@@ -55,8 +55,8 @@ const Didimo = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
