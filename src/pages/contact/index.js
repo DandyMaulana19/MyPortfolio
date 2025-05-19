@@ -38,8 +38,13 @@ export default function Contact() {
                 </a>
               </div>
               <div className="border-2 box-border size-40 rounded-2xl flex flex-col gap-2 items-center justify-center bg-black hover:text-green-900">
-                <IconBrandWhatsapp size={50} />
-                <h3 className="font-medium text-xl">Whatsapp</h3>
+                <a
+                  href="https://wa.me/+6285607340053"
+                  className="flex flex-col items-center"
+                >
+                  <IconBrandWhatsapp size={50} />
+                  <h3 className="font-medium text-xl">Whatsapp</h3>
+                </a>
               </div>
             </div>
             <div className="w-full flex items-center justify-center flex-col md:flex-row gap-16">
