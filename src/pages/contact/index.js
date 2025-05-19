@@ -1,3 +1,5 @@
+"use client";
+
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navLinks } from "@/utils/navlink";
