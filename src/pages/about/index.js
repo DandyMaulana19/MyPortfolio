@@ -28,7 +28,7 @@ export default function About() {
                       <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                     </span>
                     <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 ">
-                      <a href="https://drive.google.com/file/d/1k5AzUMSFKc8dd4QrYgJfjmACZE28fO4L/view?usp=drive_link">
+                      <a href="https://drive.google.com/file/d/1EweTjpl2bnkwheHwWz8SnZwvK0z1atAj/view?usp=sharing">
                         Resume
                       </a>
                       <svg
