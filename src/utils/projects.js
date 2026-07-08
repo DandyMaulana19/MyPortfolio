@@ -8,6 +8,9 @@ import {
   IconBrandMongodb,
   IconBrandMysql,
   IconBrandNextjs,
+  IconBrandGolang,
+  IconBrandFlutter,
+  IconBrandCSharp,
 } from "@tabler/icons-react";
 
 const TechIcons = (icons) =>
@@ -126,7 +129,12 @@ export const projects = [
         alt="Showcase 7"
       />
     ),
-    icons: TechIcons([IconBrandNextjs, IconBrandTailwind]),
+    icons: TechIcons([
+      IconBrandNextjs,
+      IconBrandTailwind,
+      IconBrandFlutter,
+      IconBrandCSharp,
+    ]),
     className: "md:col-span-2",
   },
   {
@@ -140,7 +148,7 @@ export const projects = [
         alt="Showcase 8"
       />
     ),
-    icons: TechIcons([IconBrandNextjs, IconBrandTailwind]),
+    icons: TechIcons([IconBrandNextjs, IconBrandTailwind, IconBrandGolang]),
     className: "md:col-span-2",
   },
 ];
