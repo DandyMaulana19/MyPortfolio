@@ -18,6 +18,7 @@ export const projects = [
     title: "UKM CODER Website",
     description:
       "ERP, LMS and profile website for UKM CODER Telkom University Surabaya",
+    role: "Fullstack Engineer",
     header: (
       <img
         src="assets/Coder.webp"
@@ -36,6 +37,7 @@ export const projects = [
   {
     title: "Mesti Minum",
     description: "UMKM marketplace",
+    role: "Fullstack Engineer",
     header: (
       <img
         src="assets/MestiMinum.webp"
@@ -54,6 +56,7 @@ export const projects = [
   {
     title: "Didimo",
     description: "Health checking website with IoT integration.",
+    role: "Fullstack Engineer",
     header: (
       <img
         src="assets/Didimo.webp"
@@ -67,6 +70,7 @@ export const projects = [
   {
     title: "Panjunan E-Government",
     description: "E-Government website for Gresik Panjunan Village",
+    role: "Fullstack Engineer",
     header: (
       <img
         src="assets/Panjunan.webp"
@@ -85,6 +89,7 @@ export const projects = [
   {
     title: "Sikeang CODER Mobile App",
     description: "UKM CODER Telkom University Surabaya mobile app",
+    role: "Mobile and Backend Engineer",
     header: (
       <img
         src="assets/Sikeang.webp"
@@ -98,11 +103,41 @@ export const projects = [
   {
     title: "Self Portfolio",
     description: "My personal website",
+    role: "Software Engineer",
     header: (
       <img
         src="assets/Portfolio.webp"
         className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl object-cover"
         alt="Showcase 6"
+      />
+    ),
+    icons: TechIcons([IconBrandNextjs, IconBrandTailwind]),
+    className: "md:col-span-2",
+  },
+  {
+    title: "Kalla Friends App and Backoffice",
+    description:
+      "Kalla Group's integrated customer loyalty mobile app and backoffice",
+    role: "Quality Assurance Engineer",
+    header: (
+      <img
+        src="assets/Kalla.png"
+        className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl object-cover"
+        alt="Showcase 7"
+      />
+    ),
+    icons: TechIcons([IconBrandNextjs, IconBrandTailwind]),
+    className: "md:col-span-2",
+  },
+  {
+    title: "Pupuk Indonesia Payroll App ",
+    description: "Payroll App for Pupuk Indonesia Holding Company",
+    role: "Quality Assurance Engineer",
+    header: (
+      <img
+        src="assets/Payroll.png"
+        className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl object-cover"
+        alt="Showcase 8"
       />
     ),
     icons: TechIcons([IconBrandNextjs, IconBrandTailwind]),

@@ -2,6 +2,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navLinks } from "@/utils/navlink";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -14,8 +15,11 @@ export default function About() {
             <BackgroundGradient containerClassName={"p-1"}>
               <div className="p-5 rounded-2xl bg-black border gap-3 flex flex-col items-center">
                 <div className="w-full h-3/4">
-                  <img
-                    src="assets/Profile.png"
+                  <Image
+                    src="/assets/Profile.png"
+                    alt="Profile Image"
+                    width={500}
+                    height={500}
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -63,12 +67,12 @@ export default function About() {
                 quickly and has a strong interest in acquiring new skills. I'm
                 passionate about crafting seamless interfaces and powerful
                 backends to shape the digital frontier. I'm proficient in modern
-                frameworks and libraries like Next.js, Express.js, Tailwind CSS,
-                Bootstrap, Laravel, and more. Recently. I'm also expanding my
-                expertise into the world of Quality Assurance (QA),
-                experimenting with automation testing frameworks such as
-                Cypress, TestNG, and others to enhance software quality and
-                reliability.
+                frameworks and tools like Next.js, Express.js, Fastify, Tailwind
+                CSS, Bootstrap, Laravel, Redis, S3 Storage, and more. Recently.
+                I'm also expanding my expertise into the world of Quality
+                Assurance (QA), experimenting with automation testing frameworks
+                such as Cypress, Playwright, TestNG, and others to enhance
+                software quality and reliability.
               </div>
             </div>
             <div className="w-full flex gap-3 justify-center flex-col lg:px-4">

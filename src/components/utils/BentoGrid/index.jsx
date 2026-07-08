@@ -11,6 +11,7 @@ export const BentoGrid = ({ className, items = [] }) => {
           key={index}
           title={item.title}
           description={item.description}
+          role={item.role}
           header={item.header}
           icons={item.icons}
           className={item.className}
