@@ -32,7 +32,7 @@ export default function Contact() {
               </div>
               <div className="border-2 box-border size-40 rounded-2xl flex flex-col gap-2 items-center justify-center bg-black hover:text-blue-900">
                 <a
-                  href="https://www.linkedin.com/in/dandy-maulana-ainul-yaqin/"
+                  href="https://www.linkedin.com/in/dandymay/"
                   className="flex flex-col items-center"
                 >
                   <IconBrandLinkedin size={50} />

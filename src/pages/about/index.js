@@ -67,12 +67,12 @@ export default function About() {
                 quickly and has a strong interest in acquiring new skills. I'm
                 passionate about crafting seamless interfaces and powerful
                 backends to shape the digital frontier. I'm proficient in modern
-                frameworks and tools like Next.js, Express.js, Fastify, Tailwind
-                CSS, Bootstrap, Laravel, Redis, S3 Storage, and more. Recently.
-                I'm also expanding my expertise into the world of Quality
-                Assurance (QA), experimenting with automation testing frameworks
-                such as Cypress, Playwright, TestNG, and others to enhance
-                software quality and reliability.
+                frameworks and tools like Express.js, Fastify, Tailwind CSS,
+                Next.js, Bootstrap, Laravel, Redis, S3 Storage, and more.
+                Recently. I'm also expanding my expertise into the world of
+                Quality Assurance (QA), experimenting with automation testing
+                frameworks such as Cypress, Playwright, TestNG, and others to
+                enhance software quality and reliability.
               </div>
             </div>
             <div className="w-full flex gap-3 justify-center flex-col lg:px-4">
@@ -80,8 +80,8 @@ export default function About() {
                 <h1 className="font-semibold text-4xl">Education</h1>
               </div>
               <div className="w-full">
-                I'm a student at Telkom University Surabaya majoring in software
-                engineering
+                I'mI recently finished my bachelor's in Software Engineering at
+                Telkom University.
               </div>
             </div>
             <div className="w-full flex gap-3 justify-center flex-col lg:px-4">

@@ -13,6 +13,16 @@ import {
   IconBrandCSharp,
 } from "@tabler/icons-react";
 
+import {
+  SiExpress,
+  SiFastify,
+  SiFirebase,
+  SiFlutter,
+  SiMinio,
+  SiPostgresql,
+  SiRedis,
+} from "react-icons/si";
+
 const TechIcons = (icons) =>
   icons.map((Icon, index) => <Icon key={index} size={24} strokeWidth={1} />);
 
@@ -150,5 +160,68 @@ export const projects = [
     ),
     icons: TechIcons([IconBrandNextjs, IconBrandTailwind, IconBrandGolang]),
     className: "md:col-span-2",
+  },
+  {
+    title: "Leleku catfish cultivation monitoring system",
+    description:
+      "Integrated IoT mobile app catfish cultivation and village dashboard monitoring system for Kebakalan Sidoarjo Village",
+    role: "Backend Engineer",
+    header: (
+      <img
+        src="assets/Leleku.webp"
+        className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl object-cover"
+        alt="Showcase 8"
+      />
+    ),
+    icons: TechIcons([
+      IconBrandNextjs,
+      IconBrandTailwind,
+      SiFlutter,
+      SiFastify,
+      SiFirebase,
+      SiRedis,
+      SiMinio,
+      SiPostgresql,
+    ]),
+    className: "md:col-span-2",
+  },
+  {
+    title: "PT Sepanjang Pangan Jaya Enterprise App System",
+    description:
+      "Enterprise resource planning app system for PT Sepanjang Pangan Jaya",
+    role: "Lead Backend Engineer",
+    header: (
+      <img
+        src="assets/SPJ.webp"
+        className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl object-cover"
+        alt="Showcase 8"
+      />
+    ),
+    icons: TechIcons([
+      IconBrandNextjs,
+      IconBrandTailwind,
+      SiExpress,
+      SiPostgresql,
+    ]),
+    className: "md:col-span-2",
+  },
+  {
+    title: "Jagat Litera Publishing Management System ",
+    description: "Publishing Management System for Jagat Litera Publishing",
+    role: "Fullstack Engineer",
+    header: (
+      <img
+        src="assets/Jagat-litera.webp"
+        className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl object-cover"
+        alt="Showcase 8"
+      />
+    ),
+    icons: TechIcons([
+      IconBrandNextjs,
+      IconBrandTailwind,
+      IconBrandGolang,
+      IconBrandMysql,
+    ]),
+    className: "md:col-span-4",
   },
 ];

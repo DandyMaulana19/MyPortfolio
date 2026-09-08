@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <BackgroundBeams className={"h-full"} />
-      <div className="relative min-w-screen min-h-screen">
+      <div className="relative min-h-screen">
         <FloatingNav navItems={navLinks} />
         <div className="container mx-auto px-4 xl:px-48 gap-8 py-16 flex w-full h-screen flex-col items-center justify-center">
           <div className="flex flex-col md:flex-row xl:flex-row items-center justify-center xl:gap-32 gap-12 w-full h-screen">
